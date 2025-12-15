@@ -1,0 +1,30 @@
+task: binary
+stage: adapt
+seed: 2025
+src_model: BackBone
+src_dataset: FakeTT
+tgt_dataset: FVC
+adapt_method: RADAR
+select_method: last_iterate
+setting: online
+para:
+  num_retrieve: 10
+  entropy_threshold: 0.57
+  align_loss_weight: 0.005
+  unfreeze_encoder: true
+  aggregate_label: weighted_probs
+adapt:
+  steps: 5
+  batch_size: 128
+datewise: batch-wise
+tgt_data:
+  fold: all
+  split: all
+  task: binary
+opt:
+  name: Adam
+  lr: 0.001
+  betas:
+    - 0.9
+    - 0.999
+  weight_decay: 0
