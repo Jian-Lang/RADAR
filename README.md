@@ -1,7 +1,7 @@
 # RADAR: Retrieval-Augmented Distribution Alignment and target-aware self-tRaining framework 
 
 
-This repo provides official implementations for RADAR proposed in the paper: *Nipping Rumors in the Bud: Retrieval-Guided Topic Adaptation for Test-Time Detection of Fake News Videos* accepted by KDD 2026. This study pioneers a *Test-Time Adaptation* (TTA) research direction for Fake News Video Detection and proposes an effective solution. Paper will be available soon.
+This repo provides official implementations for RADAR proposed in the paper: *Nip Rumors in the Bud: Retrieval-Guided Topic-Level Adaptation for Test-Time Fake News Video Detection* accepted by KDD 2026. This study pioneers a *Test-Time Adaptation* (TTA) research direction for Fake News Video Detection and proposes an effective solution. Paper is available from [arxiv](https://arxiv.org/abs/2601.11981).
 
 ## Abstract
 
