@@ -79,3 +79,16 @@ python core/adapt.py --config-name RADAR_FakeTT2FakeSV
 python core/adapt.py --config-name RADAR_event_FakeTT2FakeSV
 ```
 
+## Citation
+
+If you find the code useful for your research, please give us a star ⭐⭐⭐ and consider citing:
+
+```
+@inproceedings{lang2026radar,
+    author = {Lang, Jian and Hong, Rongpei and Zhong, Ting and Wang, Yong and Zhou, Fan},
+    booktitle = {Proceedings of the 32st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 1},
+    year = {2026},
+    title = {Nip Rumors in the Bud: Retrieval-Guided Topic-Level Adaptation for Test-Time Fake News Video Detection},
+}
+```
+
