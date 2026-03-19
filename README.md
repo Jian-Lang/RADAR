@@ -3,6 +3,10 @@
 
 This repo provides official implementations for RADAR proposed in the paper: *Nip Rumors in the Bud: Retrieval-Guided Topic-Level Adaptation for Test-Time Fake News Video Detection* accepted by KDD 2026. This study pioneers a *Test-Time Adaptation* (TTA) research direction for Fake News Video Detection and proposes an effective solution. Paper is available from [arxiv](https://arxiv.org/abs/2601.11981).
 
+> [!IMPORTANT]
+>
+> *We have provided the ids of videos employed in this work, across FakeSV, FakeTT and FVC datasets*
+
 ## Abstract
 
 Fake News Video Detection (FNVD) is critical for social stability. Existing methods typically assume consistent news topic distribution between training and test phases, failing to detect fake news videos tied to emerging events and unseen topics. To bridge this gap, we introduce RADAR, the first framework that enables test-time adaptation to unseen news videos. RADAR pioneers a new retrieval-guided adaptation paradigm that leverages stable (source-close) videos from the target domain to guide robust adaptation of semantically related but unstable instances. Specifically, we propose an Entropy Selection-Based Retrieval mechanism that provides videos with stable (low-entropy), relevant references for adaptation. We also introduce a Stable Anchor-Guided Alignment module that explicitly aligns unstable instances' representations to the source domain via distribution-level matching with their stable references, mitigating severe domain discrepancies. Finally, our novel Target-Domain Aware Self-Training paradigm can generate informative pseudo-labels augmented by stable references, capturing varying and imbalanced category distributions in the target domain and enabling RADAR to adapt to the fast-changing label distributions. Extensive experiments demonstrate that RADAR achieves an average Macro-F1 improvement of 6.55% over existing methods, with strong on-the-fly adaptation to unseen fake news video topics.
